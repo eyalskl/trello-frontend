@@ -1,0 +1,6 @@
+.board-list-container{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,150px);
+  grid-gap:4px;
+}

@@ -3,9 +3,9 @@ import BoardList from '../components/BoardList';
 
 const Board = () => {
     return (
-        <main className="board-page flex-center">
-            <h1> Your Boards! </h1>
-            <BoardList />
+        <main className="board-container flex-center column">
+                <h1> Your Boards! </h1>
+            <BoardList/>
         </main>
     )
 }
